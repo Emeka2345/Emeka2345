@@ -1,0 +1,82 @@
+body {
+    background-color: rgba(12, 194, 214, 0.858);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    margin: 0 0 20px;
+    padding: 3px;
+    line-height: 45px;
+    
+}
+
+ p {
+     text-align: center;
+     font-size: 50px;
+     margin: O O 20px;
+     padding: 20px;
+ }
+
+.layout {
+    display: grid;
+    grid-column: 1fr, 2fr ;
+    gap: 20px;
+    color: antiquewhite;
+    width: 100%;
+    gap: 0px 12px ;
+    margin: 12px;
+   
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    justify-content: space-around;
+    color: blanchedalmond;
+    font-size: 34px;
+   height: 100px;
+    image-resolution: 50px 40px;
+   
+}
+
+
+.profile {
+   justify-self: center;
+}
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2px;
+    color: beige;
+    height: 200px;
+    justify-self: center;
+}
+
+.photo {
+    height: 120px;
+    width: 200px;
+    float: left;
+    margin: auto;
+}
+
+.profile_pic
+{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.main {
+    grid-template-areas: 
+    "hd hd bk"
+    "bk bk bk";
+}
+    
+
+
+.post1 { 
+    gap: 20px;
+}
+    
